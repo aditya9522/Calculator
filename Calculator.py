@@ -7,7 +7,7 @@ root.geometry("428x500")
 reslt = StringVar()
 operation = ""
 
-top = Label(root,text="C A L C U L A T O R",font=('arial',18,'bold'),fg="red",bg="grey").pack(pady=10)
+top = Label(root,text="C A L C U L A T O R",font=('arial',18,'bold'),fg="blue",bg="grey").pack(pady=10)
 
 def equal():
     global operation
@@ -32,7 +32,7 @@ def back():
     reslt.set(operation)
     
 
-result = Entry(root,textvariable=reslt,width=34,bg="steel blue",fg="white",border=6,font=('arial',15,'bold')).place(x=18,y=80)
+result = Entry(root,textvariable=reslt,width=34,bg="white",fg="Black",border=6,font=('calibri',16,'bold')).place(x=18,y=80)
 btn1 = Button(root,text="9",bg="orange",border=5,width=8,font=('arial',10,'bold'),command=lambda:btnclk(9)).place(x=15,y=140)
 btn2 = Button(root,text="6",bg="orange",border=5,width=8,font=('arial',10,'bold'),command=lambda: btnclk(6)).place(x=15,y=200)
 btn3 = Button(root,text="3",bg="orange",border=5,width=8,font=('arial',10,'bold'),command=lambda: btnclk(3)).place(x=15,y=260)
