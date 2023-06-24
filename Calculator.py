@@ -51,6 +51,6 @@ btn15 = Button(root,text="Exit",bg="yellow",border=5,width=8,font=('arial',10,'b
 btn16 = Button(root,text="+",fg="blue",bg="pink",border=5,width=8,font=('arial',10,'bold'),command=lambda: btnclk("+")).place(x=330,y=140)
 btn17 = Button(root,text="x",fg="blue",bg="pink",border=5,width=8,font=('arial',10,'bold'),command=lambda: btnclk("*")).place(x=330,y=200)
 btn18 = Button(root,text="/",fg="blue",bg="pink",border=5,width=8,font=('arial',10,'bold'),command=lambda: btnclk("/")).place(x=330,y=260)
-btn19 = Button(root,text="=",fg="blue",bg="pink",border=5,width=8,font=('arial',10,'bold'),command= equal).place(x=330,y=320)
+btn19 = Button(root,text="🟰",fg="blue",bg="pink",border=5,width=8,font=('arial',10,'bold'),command= equal).place(x=330,y=320)
 
 root.mainloop()
